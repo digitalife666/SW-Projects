@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="industrialDataSet8" targetNamespace="http://tempuri.org/industrialDataSet8.xsd" xmlns:mstns="http://tempuri.org/industrialDataSet8.xsd" xmlns="http://tempuri.org/industrialDataSet8.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="industrialConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="industrialConnectionString1 (Settings)" PropertyReference="ApplicationSettings.Industrial_counter.Properties.Settings.GlobalReference.Default.industrialConnectionString1" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="SCANNER08TableAdapter" GeneratorDataComponentClassName="SCANNER08TableAdapter" Name="SCANNER08" UserDataComponentName="SCANNER08TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="industrialConnectionString1 (Settings)" DbObjectName="SCANNER08" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT LIST, MODEL, BOX_NUM, QUANTITY, ERROR, DISPOSE FROM SCANNER08</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="industrialDataSet8" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="industrialDataSet8" msprop:Generator_DataSetName="industrialDataSet8">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SCANNER08" msprop:Generator_RowEvHandlerName="SCANNER08RowChangeEventHandler" msprop:Generator_RowDeletedName="SCANNER08RowDeleted" msprop:Generator_RowDeletingName="SCANNER08RowDeleting" msprop:Generator_RowEvArgName="SCANNER08RowChangeEvent" msprop:Generator_TablePropName="SCANNER08" msprop:Generator_RowChangedName="SCANNER08RowChanged" msprop:Generator_RowChangingName="SCANNER08RowChanging" msprop:Generator_TableClassName="SCANNER08DataTable" msprop:Generator_RowClassName="SCANNER08Row" msprop:Generator_TableVarName="tableSCANNER08" msprop:Generator_UserTableName="SCANNER08">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
